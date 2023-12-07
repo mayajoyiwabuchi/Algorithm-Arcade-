@@ -10,7 +10,7 @@
 ## Information
 Final project for CS1530
 
-## Complining
+## Compiling
 To run website download repo,then on the command line      
 run on windows: `.//env/Scripts/activate`     
     on MAC: `source env/bin/activate`         
