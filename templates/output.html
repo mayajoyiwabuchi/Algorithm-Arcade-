@@ -1,0 +1,27 @@
+<!-- output.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/styles.css">
+    <script src="/static/js/script.js"></script>
+
+    <title>Output</title>
+</head>
+<body>
+    <header>
+        <h1>result</h1>
+    </header>
+    <div class="container">
+        {% if result == "Correct" %}
+            <h2>Correct!</h1>
+            <a href = "{{url_for("login")}}" > Return to profile</a>
+        {% else %}
+            <h2> Inocorrect </h2>
+            <button onclick="goBack()">Try Again</button>
+        {% endif %}
+    </div>
+
+</body>
+</html>
